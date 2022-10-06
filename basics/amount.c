@@ -1,14 +1,14 @@
-// Program to calculate amount from qty and price
-// Date : 30-SEP-2022
+// Print size of data types
+// Date : 06-OCT-2022
 
 #include <stdio.h>
 
 void main()
 {
-  int qty, price, amount;
 
-     qty  = 5;
-     price = 100;
-     amount = qty * price;
-     printf("Amount =  %d", amount);
+     printf("Size of short  %d\n", sizeof(short));
+     printf("Size of int    %d\n", sizeof(int));
+     printf("Size of long   %d\n", sizeof(long));
+     printf("Size of float  %d\n", sizeof(float));
+     printf("Size of double %d\n", sizeof(double));
 }
