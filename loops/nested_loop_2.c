@@ -1,5 +1,5 @@
 // Nested loop
-// Date : 11-OCT-2022
+// Date : 12-OCT-2022
 
 #include <stdio.h>
 
@@ -10,7 +10,7 @@ void main()
        for(i = 1; i <= 5; i++)
        {
            for(j = 1; j <= 5; j ++)
-              printf("%d ", j);
+              printf("%d ", i);
 
            printf("\n");
        }
