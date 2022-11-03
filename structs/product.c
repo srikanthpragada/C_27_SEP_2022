@@ -1,5 +1,4 @@
-typedef struct product PRODUCT;
-
+typedef struct product PRODUCT; // create an alias for struct product
 
 struct product
 {
